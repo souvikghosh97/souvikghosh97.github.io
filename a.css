@@ -1,0 +1,228 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+.leftside{
+	position: fixed;
+	top:25%;
+
+}
+.leftside ul li img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+
+}
+
+
+.leftside li{
+	list-style-type: none;
+	padding: 10px;
+	transition: .6s;
+	color: white;
+	position: relative;
+}
+
+.leftside li:hover{
+	padding: 10px 50px;
+}
+
+
+
+.bgpicc{
+	background-image: url('images/white.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 80px;
+
+}
+.bgpic{
+	background-image: url('images/bgpic.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 600px;
+
+}
+
+#oneline{
+	display: inline;
+}
+.center{
+	text-align: center;
+	padding-top: 300px;
+	color:   #ff3333;
+}
+
+
+
+.piccenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.disp{
+	padding: 20px;
+}
+
+.dispwc{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	height: 200px;
+	padding-left: 15px;
+}
+.dispaboutme{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	height: 200px;
+	padding-left: 25px;
+
+}
+
+
+.containerr {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+.rs{
+  padding-left: 200px;
+  float: left;
+  color: white;
+}
+
+.clang {width: 100%; background-color: #4CAF50;} /* Green */
+.javalang {width: 80%; background-color: #2196F3;} /* Blue */
+.iot {width: 40%; background-color: #f44336;} /* Red */
+.python {width: 60%; background-color: #808080;} /* Dark Grey */
+
+#colofskill{
+	background-color: #99e699;
+}
+
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#oj{
+	background-color: skyblue;
+}
+
+
+#getintouch{
+	background-color:  #80ffbf;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+#mybtn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#mya {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+#mybtn:hover, #mya:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  /*position: fixed;
+
+  left: 0;
+  bottom: 0;
+  */
+  height: 100px;
+  width: 100%;
+  background-color:  #8cd9b3;
+  color: black;
+  text-align: center;
+}
